@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.contenedor {
+    width: 50%;
+    padding: 40px;
+    display: block;
+    margin: auto;
+    background-size: cover;
+}
+
+/*** FORMULARIO ***/
+
+.formulario {
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+label {
+    visibility: hidden;
+}
+
+.camposForm {
+    width: 500px;
+    height: 50px;
+    color: #414166;
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid #04146c;
+    margin: 3px;
+}
+
+.botoncito {
+    width: 500px;
+    height: 50px;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: 'Mulish', sans-serif;
+    background-color: #15163d;
+    border: none;
+    margin-top: 5px;
+}
+
+.formulario input {
+    text-indent: 5px;
+}
+
+
+/*** TEXTOS ***/
+
+h1 {
+    font-size: 33px;
+    font-weight: 700;
+    text-align: center;
+    color: #04146c;
+    margin-bottom: 12px;
+}
+

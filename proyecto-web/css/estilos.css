@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+@font-face {
+    font-family: Bodoni;
+    src: url(../fuentes/BodoniFLF-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Bodoni;
+    src: url(../fuentes/BodoniFLF-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Bodoni;
+    src: url(../fuentes/BodoniFLF-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Bodoni;
+    src: url(../fuentes/BodoniFLF-Roman.ttf);
+    font-weight: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 2px;
+}
+
+nav img {
+    width: 2%;
+    max-width: 100%;
+    height: auto;
+    margin-right: auto;
+}
+
+#encabezado {
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-image: url(../img/banner.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+#encabezado h1 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: lowercase;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+#encabezado h1 span {
+    font-family: Bodoni;
+    font-style: italic;
+    font-weight: bold;
+    display: block;
+    font-size: 3em;
+    
+}
+
+#encabezado div {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+h1, .nosotros h2 {
+    margin: 0;
+}
+
+.nosotros h2 {
+    font-family: Bodoni;
+    font-size: 2em;
+
+}
+
+header h1 span, h3 {
+    color: #b45008;
+}
+
+.nosotros h2, h4 {
+    color: #e8bf65;
+}
+
+h4 {
+    font-size: 1.4em;
+    border-bottom: 1px dotted #b45008;
+    text-shadow: 2px 3px 2px rgba(200, 200, 14, 0.5)
+}
+
+p {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-family: Bodoni;
+    
+}
+
+h3, header h1 span {
+   font-size: 3em; 
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+article {
+    width: 50%;
+    padding: 1em;
+    float: left;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.division {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.division div {
+    width: 50%;
+}
+
+.nosotros, footer {
+    background-color: #b45008
+}
+
+.division div img {
+    width: 80%;
+    margin: auto;
+    display: block;
+    border-radius: 10px / 20px;
+    box-shadow: 1px 3px 10px black;
+}
+
+.nosotros p {
+    font-size: 1.2em;
+    
+}
+
+.nosotros p, footer {
+    color: white;
+}
+ .activo a:hover {
+     text-decoration: underline;
+ }

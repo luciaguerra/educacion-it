@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    font-size:  24px;
+    font-family:  'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+nav h1, footer h1, .grande {
+    font-family: 'Coiny', cursive;
+    font-size: 33px;
+}
+
+nav h1 {
+    margin-right: auto;
+}
+
+nav a, footer a {
+    margin-left: 20px;
+    color: #7A7A7A;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    color: black;
+    list-style: none;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-size: 41px;
+}
+
+.grande {
+    font-size: 100px;
+}
+
+h3 {
+    font-size: 26px;
+    display: inline;
+}
+
+h1, h2, h3 strong {
+    font-weight: 700;
+}
+
+h2, h3 {
+    background-color: rgb(252, 238, 33);
+}
+
+.destacado {
+    font-size: 24px;
+    background-color: yellow;
+    font-weight: 700;
+}
+
+aside img {
+    height: auto;
+    width: 50%;
+}
+
+#titulo {
+    font-size: 40px;
+}
+
+header.encolumnar, aside.encolumnar {
+    border-bottom: none;
+}
+
+
+header img {
+    width: 70%;
+    margin-left: 30%;
+}
+
+footer, main, header, aside {
+    width: 100%;
+}
+
+footer {
+    height: 100px;
+    padding: 10px;
+    background-color: rgb(252, 238, 33);
+    display: flex;
+    align-items: center;
+}
+
+#imagen {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+span {
+    color: #c1272d;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+input{
+    height: 40px;
+}
+
+form {
+    margin: auto;
+}
+
+.encolumnar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 0.5px solid gray;
+}
+
+.botoncito {
+    padding: 0;
+    border-bottom: none;
+}
+
+.botoncito input {
+    border: none;
+    width: auto;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+
+p, h2 {
+    font-size: 22px;
+}
+
+ol, li {
+    margin-bottom: 6%;
+}
+
+h4 {
+    margin: 0;
+    font-size: 50px;
+    display: inline;
+    background-color:rgb(0, 0, 0);
+    color:rgb(247, 247, 247);
+    line-height: 100px;
+}
+
+.negrita {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+main {
+    font-size: 21px;
+    margin: auto;
+}
+
+section {
+    width: 45%;
+}
+
+
+

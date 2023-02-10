@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+@font-face {
+    font-family: Coolvetica;
+    src: url(../fuentes/coolvetica\ rg\ \(2\).otf);
+    font-weight: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 50%;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    display: block;
+    margin: auto;
+}
+
+main {
+    background-color: #eff2ff;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
+    margin: auto;
+    padding: 2em;
+    border-radius: 15px;
+
+}
+
+#infoDatos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+#datos {
+    display: flex;
+    justify-content: flex-start;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0.7rem;
+}
+
+#datos img {
+    align-items: center;
+    margin: 5px;
+}
+
+h2, #infoDatos p, .icono {
+    margin-bottom: 8px;
+}
+
+.icono {
+    width: 15%;
+}
+
+.identificadores {
+    width: 15%;
+}
+
+.info {
+    width: 12%;
+}
+
+h1, h2 {
+    color: #0a2ff1;
+}
+
+h1 {
+    font-family: Coolvetica;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+p {
+    font-weight: lighter;
+    color: #04146c;
+    font-size: 1.2rem;
+}
+
+#datos p {
+    font-weight: normal;
+    font-size: 1rem;
+}

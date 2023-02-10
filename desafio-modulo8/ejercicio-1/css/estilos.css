@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: "Mulish", sans-serif;
+}
+
+main {
+    padding: 2em;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 0.7rem;
+}
+
+.tag, h1 {
+    color: #0a2ff1;
+}
+
+.tag, p {
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.texto {
+    color: #04146c;
+    margin-bottom: 1rem;
+}
+
+.fotos {
+    width: 50%;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 10px 10px; 
+    grid-template-areas: 
+      "section section section"
+      "section section section"; 
+  }
+  .seccion{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 10px 10px; 
+    grid-template-areas: 
+      "div1 div2 div3"
+      "div1 div4 div4"; 
+    grid-area: section; 
+  }
+
+  .div1 { grid-area: div1; }
+  .div2 { grid-area: div2; }
+  .div3 { grid-area: div3; }
+  .div4 { grid-area: div4; }
